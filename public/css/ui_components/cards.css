@@ -1,0 +1,82 @@
+.cards{
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+
+h2.header{
+    text-align: center;
+    font-size: 40px;
+    margin: 0 0 30px 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.services{
+    display: flex;
+    align-items: center;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 4px;
+    transition: all .3s ease;
+}
+
+.content .fab{
+    font-size: 70px;
+    margin: 16px 0;
+}
+
+.content > *{
+    flex: 1 1 100%;
+
+}
+
+.content h2{
+    font-size: 30px;
+    margin: 16px 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.content p{
+    font-size: 17px;
+    font-family: 'Poppins',sans-serif;
+    color: white;
+}
+
+.content-button{
+    display:inline-block;
+    padding:0.8em 1.2em;
+    border:0.1em solid #FFFFFF;
+    margin:1.5em 0 1.5em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+}
+
+.content-button:hover{
+    color:#000000;
+    background-color:#FFFFFF;
+}
+
+@media (max-width: 900px) {
+    .services{
+    display: flex;
+    flex-direction: column;
+    }
+}
